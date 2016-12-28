@@ -1,0 +1,8 @@
+platform:osx, '10.9'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/jumperb/HAccess'
+
+target "TestGit" do
+  pod 'FMDB'
+  pod 'HAccess'
+end
